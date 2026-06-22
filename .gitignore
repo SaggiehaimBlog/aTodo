@@ -1,0 +1,37 @@
+# Build artifacts
+/target/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Node (for Tauri frontend)
+node_modules/
+dist/
+
+# Logs
+*.log
+
+.github/*
+
+.superpowers/*
+
+docs/superpowers/*
+
+.vscode
